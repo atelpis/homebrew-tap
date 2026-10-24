@@ -1,7 +1,6 @@
 class Claudama < Formula
   desc "Ollama-API-compatible server backed by the Claude Code CLI"
   homepage "https://github.com/atelpis/claudama"
-  version "0.1.6"
   license "MIT"
 
   on_macos do
