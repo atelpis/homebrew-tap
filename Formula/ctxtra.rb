@@ -1,10 +1,10 @@
 class Ctxtra < Formula
   desc "Add your instruction files and skills to coding-agent sessions"
-  homepage "https://github.com/atelpis/ctxtra"
-  url "https://github.com/atelpis/ctxtra/archive/refs/tags/v0.4.0.tar.gz"
+  homepage "https://github.com/ctxtra/ctxtra"
+  url "https://github.com/ctxtra/ctxtra/archive/refs/tags/v0.4.0.tar.gz"
   sha256 "fd7184d653dbebc205fcde84c0038af13dd2c16da164e117e7e42eade487851f"
   license "MIT"
-  head "https://github.com/atelpis/ctxtra.git", branch: "main"
+  head "https://github.com/ctxtra/ctxtra.git", branch: "main"
 
   bottle do
     root_url "https://github.com/atelpis/homebrew-tap/releases/download/ctxtra-0.4.0"
