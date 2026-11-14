@@ -14,6 +14,8 @@ class Ctxtra < Formula
 
   depends_on "go" => :build
 
+  conflicts_with "ctxtra-rc", because: "both install the `ctxtra` binary"
+
   def install
     system "go", "build", *std_go_args(ldflags: "-s -w -X main.version=v#{version}"), "./cmd/ctxtra"
   end
