@@ -6,6 +6,12 @@ class CtxtraRc < Formula
   license "MIT"
   head "https://github.com/ctxtra/ctxtra.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/atelpis/homebrew-tap/releases/download/ctxtra-rc-0.5.0-rc.1"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "73d6b7379a6d934797c43893c533389f0a7cd275b93e9f9cd589cfa1a68d4cd0"
+    sha256 cellar: :any,                 x86_64_linux: "d848693a56689bff169887a36d06055594fc8b91888faafde1b78cef4da2908a"
+  end
+
   depends_on "go" => :build
 
   conflicts_with "ctxtra", because: "both install the `ctxtra` binary"
