@@ -7,9 +7,9 @@ class Ctxtra < Formula
   head "https://github.com/ctxtra/ctxtra.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/atelpis/homebrew-tap/releases/download/ctxtra-0.5.1"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "f7c451530de37a73bbb507b6748558bb8244893aed6fcf210a8015c9e7dabed1"
-    sha256 cellar: :any,                 x86_64_linux: "9e58bf959639911850f9b02dba3899be784e4f645927f67c093747732437de6b"
+    root_url "https://github.com/atelpis/homebrew-tap/releases/download/ctxtra-0.5.2"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "180ca1774b5a66035777ae27f5e7f17f7cd522dcd52ba15056fad3b8b6c710a2"
+    sha256 cellar: :any,                 x86_64_linux: "d105e4005ab0ab28c611f4043efffbeacca9541a4504e2de5e68da04cb27df52"
   end
 
   depends_on "go" => :build
