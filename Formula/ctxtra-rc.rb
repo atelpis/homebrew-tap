@@ -1,8 +1,8 @@
 class CtxtraRc < Formula
   desc "Add instruction files and skills to coding-agent sessions (release candidates)"
   homepage "https://github.com/ctxtra/ctxtra"
-  url "https://github.com/ctxtra/ctxtra/archive/refs/tags/v0.6.0.tar.gz"
-  sha256 "eef3b86f287f94caad7ebef29be342d9f71d665f12601239acd25159f32203a0"
+  url "https://github.com/ctxtra/ctxtra/archive/refs/tags/v0.7.0-rc.1.tar.gz"
+  sha256 "6eb8e8a3a96d410fa937436ef198e876cc56a2f4d6e7a8ff17b1ffbdd2b9a4b8"
   license "MIT"
   head "https://github.com/ctxtra/ctxtra.git", branch: "main"
 
