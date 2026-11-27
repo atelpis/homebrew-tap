@@ -36,7 +36,7 @@ class CtxtraRc < Formula
   test do
     assert_equal "v#{version}", shell_output("#{bin}/ctxtra version").strip
     (testpath/"note.md").write "brew test note"
-    system bin/"ctxtra", "binding", "add", "t", "--global", "--instruction", testpath/"note.md"
+    system bin/"ctxtra", "binding", "add", "t", "--instruction", testpath/"note.md"
     assert_match "brew test note", shell_output("#{bin}/ctxtra context show #{testpath}")
   end
 end
